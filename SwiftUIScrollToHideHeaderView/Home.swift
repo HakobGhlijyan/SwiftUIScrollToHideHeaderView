@@ -17,8 +17,9 @@ struct Home: View {
         GeometryReader {
             let safeArea = $0.safeAreaInsets
             let headerHeight = 60 + safeArea.top
+            let footerHeight = 30 + safeArea.bottom
             
-            ScrollView(.vertical) {
+            ScrollView(.vertical, showsIndicators: false) {
                 LazyVStack(spacing: 15) {
                     ForEach(0 ..< 10) { _ in
                         DummyCard()
@@ -32,6 +33,11 @@ struct Home: View {
                     .frame(height: headerHeight, alignment: .bottom)
                     .background(.bar)
                     .offset(y: -headerOffset)
+            }
+            .safeAreaInset(edge: .bottom, spacing: 0) {
+                FooterView()
+                    .frame(height: footerHeight, alignment: .bottom)
+                    .background(.ultraThinMaterial)
             }
             .onScrollGeometryChange(for: CGFloat.self) { proxy in
                 let maxHeight = proxy.contentSize.height - proxy.containerSize.height
@@ -82,15 +88,64 @@ struct Home: View {
             Button("", systemImage: "magnifyingglass") {
                 
             }
-            Image("profile")
-                .resizable()
-                .scaledToFit()
-                .frame(height: 35)
-                .clipShape(Circle())
         }
         .font(.title3)
         .foregroundStyle(.primary)
         .padding(.horizontal, 15 )
+    }
+    
+    //FooterView
+    @ViewBuilder func FooterView() -> some View {
+        HStack(alignment: .bottom) {
+            Spacer()
+            Button {
+                
+            } label: {
+                icon(icon: "house", title: "Home")
+            }
+            Spacer()
+            Button {
+                
+            } label: {
+                icon(icon: "play.rectangle", title: "Shorts")
+            }
+            Spacer(minLength: 25)
+            Button {
+                
+            } label: {
+                Image(systemName: "plus.circle.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 50)
+            }
+            Spacer(minLength: 25)
+            Button {
+                
+            } label: {
+                icon(icon: "play.square.fill", title: "Subscribe")
+            }
+            Spacer()
+            Button {
+                
+            } label: {
+                icon(icon: "person", title: "Profile")
+            }
+            Spacer()
+        }
+        .foregroundStyle(.primary)
+    }
+    
+    //Icon Footer
+    @ViewBuilder func icon(icon: String, title: String) -> some View {
+        VStack {
+            Image(systemName: icon)
+                .resizable()
+                .scaledToFit()
+                .frame(height: 25)
+            Text(title)
+                .font(.caption)
+        }
+        .frame(width: 60, height: 40)
     }
     
     //Dummy Card view
