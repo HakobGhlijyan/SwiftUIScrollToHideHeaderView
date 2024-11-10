@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIScrollToHideHeaderViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView().preferredColorScheme(.dark)
         }
     }
 }
