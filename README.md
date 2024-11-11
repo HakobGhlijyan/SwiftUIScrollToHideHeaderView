@@ -3,30 +3,11 @@
 
 ### UI
 <div id="stat0" align="center">
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/sm1.png" width="400"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/sm2.png" width="400"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/sm3.png" width="400"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/sm4.png" width="400"/>
+  <img src="https://github.com/HakobGhlijyan/SwiftUIScrollToHideHeaderView/blob/main/screen/Снимок%20экрана%202024-11-10%20в%2017.10.52.png" width="800"/>
 </div>
 
 
 ### Work...
 <div id="stat0" align="center">
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/smv.gif" width="400"/> 
-</div>
-
-### App Code
-<div id="stat0" align="center">
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr1.png" width="800"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr2.png" width="800"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr3.png" width="800"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr4.png" width="800"/> 
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr5.png" width="800"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr6.png" width="800"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr7.png" width="800"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr8.png" width="800"/> 
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr9.png" width="800"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr10.png" width="800"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr11.png" width="800"/>
-  <img src="https://github.com/HakobGhlijyan/TaskManagementSwiftUICoreData/blob/main/Screen/scr12.png" width="800"/> 
+  <img src="https://github.com/HakobGhlijyan/SwiftUIScrollToHideHeaderView/blob/main/screen/%25D0%2597%25D0%25B0%25D0%25BF%25D0%25B8%25D1%2581%25D1%258C%2520%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%25202024-11-10%2520%25D0%25B2%252017.gif"/> 
 </div>
